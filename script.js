@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 13,
             name: "青楼",
             type: "机制本",
-            tags: ["古风", "情感沉浸", "还原", "开放结局", "欢乐本", "阵营对抗"],
+            tags: ["中式", "古风", "情感沉浸", "还原", "开放结局", "欢乐本", "阵营对抗"],
             player_count: 7,
             publisher: "西昆仑",
             release_year: 2020
@@ -133,45 +133,45 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 15,
             name: "贵阴贱璧",
             type: "推理本",
-            tags: ["古风", "本格推理", "还原", "硬核", "宫廷", "进阶"],
-            player_count: 7,
-            publisher: "天津剧盟",
+            tags: ["中式", "古风", "欢乐", "都市"],
+            player_count: 6,
+            publisher: "戏纸",
             release_year: 2020
         },
         {
             id: 16,
             name: "月下沙利叶",
             type: "推理本",
-            tags: ["欧式", "变格推理", "还原", "情感沉浸", "惊悚", "进阶"],
+            tags: ["中式", "变格推理", "还原", "悬疑", "惊悚", "进阶", "都市"],
             player_count: 6,
-            publisher: "四维推理",
-            release_year: 2020
+            publisher: "稻草人工作室",
+            release_year: 2019
         },
         {
             id: 17,
             name: "月落洼",
             type: "推理本",
-            tags: ["现代", "本格推理", "还原", "乡村", "微恐", "新手友好"],
+            tags: ["民国", "本格推理", "还原", "乡村", "微恐", "新手友好", "豪门"],
             player_count: 6,
-            publisher: "剧盟",
+            publisher: "智乐源",
             release_year: 2019
         },
         {
             id: 18,
             name: "雾起云浮",
             type: "情感本",
-            tags: ["古风", "情感沉浸", "还原", "仙侠", "开放结局", "豪门"],
+            tags: ["民国", "本格推理", "还原", "PVP", "微恐", "豪门"],
             player_count: 6,
-            publisher: "大魔王创作组",
+            publisher: "智乐源",
             release_year: 2021
         },
         {
             id: 19,
             name: "紫藤夫人",
             type: "情感本",
-            tags: ["民国", "情感沉浸", "还原", "微恐", "开放结局", "豪门"],
+            tags: ["民国", "本格推理", "还原", "PVP", "微恐", "豪门"],
             player_count: 6,
-            publisher: "归去来工作室",
+            publisher: "智乐源",
             release_year: 2021
         },
         {
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 24,
             name: "须臾",
             type: "推理本",
-            tags: ["微恐", "硬核", "还原", "变格", "开放结局", "菠萝头"],
+            tags: ["中式", "微恐", "硬核", "还原", "变格", "都市"],
             player_count: 6,
             publisher: "玄机",
             release_year: 2020
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "芥子上:弥望之川",
             type: "推理本",
             tags: ["架空", "新本格", "还原", "硬核", "破次元"],
-            player_count: 6,
+            player_count: 8,
             publisher: "玄机",
             release_year: 2023
         },
@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "芥子下:须陀界河",
             type: "推理本",
             tags: ["架空", "变格推理", "还原", "硬核"],
-            player_count: 6,
+            player_count: 8,
             publisher: "玄机",
             release_year: 2023
         },
@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 29,
             name: "马丁内斯死在了惊奇馆",
             type: "推理本",
-            tags: ["欧式", "本格推理", "还原", "欢乐机制", "新手友好", "都市"],
+            tags: ["日式", "本格推理", "还原", "欢乐机制", "新手友好", "都市"],
             player_count: 6,
             publisher: "灰烬工作室",
             release_year: 2021
@@ -286,76 +286,40 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 32,
             name: "诅家庄",
             type: "推理本",
-            tags: ["古风", "恐怖", "变格推理", "还原", "封闭结局", "进阶", "豪门"],
+            tags: ["中式", "古风", "恐怖", "变格推理", "还原", "封闭结局", "进阶", "豪门"],
             player_count: 7,
-            publisher: "叁仟世界",
+            publisher: "智乐源",
             release_year: 2019
         },
         {
             id: 33,
             name: "木夕僧之戏",
             type: "推理本",
-            tags: ["日式", "本格推理", "还原", "封闭结局", "经典", "进阶"],
+            tags: ["日式", "本格推理", "悬疑", "PVP", "经典", "怪谈"],
             player_count: 7,
-            publisher: "null",
-            release_year: 2018
+            publisher: "西安蛛丝马迹",
+            release_year: 2020
         },
         {
             id: 34,
             name: "病娇男孩的精分日记",
             type: "推理本",
-            tags: ["现代", "变格推理", "还原", "精神变态", "微恐", "进阶"],
+            tags: ["中式", "现代", "变格推理", "还原", "精神变态", "微恐", "进阶"],
             player_count: 6,
             publisher: "null",
-            release_year: 2019
+            release_year: 2021
         },
         {
             id: 35,
             name: "病娇男孩的恋爱日记",
-            type: "情感本",
-            tags: ["现代", "情感沉浸", "还原", "精神变态", "微恐", "系列作品", "菠萝头"],
+            type: "推理本",
+            tags: ["中式", "现代", "变格推理", "还原", "精神变态", "微恐"],
             player_count: 6,
             publisher: "null",
-            release_year: 2020
+            release_year: 2021
         },
         {
             id: 36,
-            name: "致新世界",
-            type: "情感本",
-            tags: ["现代", "情感沉浸", "还原", "科幻", "开放结局", "水龙头"],
-            player_count: 6,
-            publisher: "叁仟世界",
-            release_year: 2021
-        },
-        {
-            id: 37,
-            name: "南墙",
-            type: "情感本",
-            tags: ["现代", "情感沉浸", "还原", "现实题材", "致郁", "水龙头"],
-            player_count: 6,
-            publisher: "有间发行",
-            release_year: 2021
-        },
-        {
-            id: 38,
-            name: "周公游记",
-            type: "推理本",
-            tags: ["古风", "变格推理", "还原", "奇幻", "欢乐机制", "新手友好"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2019
-        },
-        {
-            id: 39,
-            name: "周公游记2",
-            type: "推理本",
-            tags: ["古风", "变格推理", "还原", "奇幻", "欢乐机制", "系列作品", "新手友好"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2020
-        },
-        {
-            id: 40,
             name: "一座城",
             type: "机制本",
             tags: ["中式", "跑团", "刑侦", "都市", "现实题材", "还原"],
@@ -364,43 +328,16 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2020
         },
         {
-            id: 41,
-            name: "第二十二条校规",
-            type: "推理本",
-            tags: ["现代", "恐怖", "变格推理", "还原", "校园", "惊悚", "经典", "进阶"],
-            player_count: 7,
-            publisher: "真相骑士",
-            release_year: 2019
-        },
-        {
-            id: 42,
-            name: "天才在左我在右",
-            type: "推理本",
-            tags: ["现代", "本格推理", "还原", "烧脑", "硬核", "硬核"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2020
-        },
-        {
-            id: 43,
+            id: 37,
             name: "诡计博物馆",
             type: "推理本",
-            tags: ["现代", "本格推理", "还原", "硬核", "烧脑", "馆系列", "硬核"],
+            tags: ["欧美", "现代", "本格推理", "硬核", "烧脑", "非常好玩"],
             player_count: 7,
             publisher: "null",
-            release_year: 2020
+            release_year: 2021
         },
         {
-            id: 44,
-            name: "两点半",
-            type: "推理本",
-            tags: ["现代", "恐怖", "变格推理", "还原", "惊悚", "重恐", "进阶"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2020
-        },
-        {
-            id: 45,
+            id: 38,
             name: "孑身",
             type: "推理本",
             tags: ["中式", "现代", "架空", "还原", "悬疑", "进阶"],
@@ -409,7 +346,7 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2023
         },
         {
-            id: 46,
+            id: 39,
             name: "红黑馆事件",
             type: "推理本",
             tags: ["中式", "本格推理", "设定", "硬核", "都市", "菠萝头", "硬核"],
@@ -418,16 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2022
         },
         {
-            id: 47,
-            name: "眠梦不老泉",
-            type: "推理本",
-            tags: ["欧式", "奇幻", "本格推理", "还原", "欢乐机制", "新手友好"],
-            player_count: 7,
-            publisher: "null",
-            release_year: 2021
-        },
-        {
-            id: 48,
+            id: 40,
             name: "请将我深埋",
             type: "推理本",
             tags: ["日式", "推理", "还原", "都市", "设定", "跑团"],
@@ -436,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2021
         },
         {
-            id: 49,
+            id: 41,
             name: "失真的旋律",
             type: "推理本",
             tags: ["民国", "中式", "本格推理", "还原", "进阶", "豪门"],
@@ -445,25 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2020
         },
         {
-            id: 50,
-            name: "那一束月光",
-            type: "情感本",
-            tags: ["现代", "情感沉浸", "还原", "都市", "温馨", "治愈", "新手友好"],
-            player_count: 6,
-            publisher: "未知名工作室",
-            release_year: 2021
-        },
-        {
-            id: 51,
-            name: "逢山遇鬼",
-            type: "推理本",
-            tags: ["古风", "恐怖", "变格推理", "还原", "惊悚", "进阶"],
-            player_count: 7,
-            publisher: "null",
-            release_year: 2020
-        },
-        {
-            id: 52,
+            id: 42,
             name: "没头脑东西不伤心",
             type: "情感本",
             tags: ["日式", "欢乐", "还原", "情感沉浸", "设定", "水龙头"],
@@ -472,43 +382,25 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2023
         },
         {
-            id: 53,
+            id: 43,
             name: "大浪",
             type: "情感本",
-            tags: ["现代", "情感沉浸", "喝酒", "都市", "治愈", "进阶"],
+            tags: ["架空", "现代", "情感沉浸", "喝酒", "都市", "治愈", "进阶"],
             player_count: 6,
             publisher: "预谋剧制",
             release_year: 2024
         },
         {
-            id: 54,
+            id: 44,
             name: "谋杀安徒生",
-            type: "推理本",
-            tags: ["欧式", "奇幻", "本格推理", "还原", "童话改编", "进阶"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2020
-        },
-        {
-            id: 55,
-            name: "安妮的游戏",
-            type: "推理本",
-            tags: ["欧式", "恐怖", "变格推理", "还原", "惊悚", "进阶"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2020
-        },
-        {
-            id: 56,
-            name: "飞鱼照京霜",
             type: "机制本",
-            tags: ["古风", "阵营对抗", "还原", "武侠", "权谋", "进阶"],
-            player_count: 8,
-            publisher: "发行狮",
-            release_year: 2021
+            tags: ["架空", "奇幻", "机制", "欢乐", "童话改编", "新手"],
+            player_count: 6,
+            publisher: "null",
+            release_year: 2023
         },
         {
-            id: 57,
+            id: 45,
             name: "死亡回响",
             type: "推理本",
             tags: ["日式", "本格推理", "还原", "悬疑", "硬核"],
@@ -517,16 +409,16 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2025
         },
         {
-            id: 58,
+            id: 46,
             name: "因火成烟",
             type: "情感本",
-            tags: ["现代", "情感沉浸", "还原", "消防主题", "家国情怀", "水龙头"],
+            tags: ["现代", "架空", "还原", "设定", "日式"],
             player_count: 6,
-            publisher: "叁仟世界",
-            release_year: 2021
+            publisher: "低空飞行",
+            release_year: 2051
         },
         {
-            id: 59,
+            id: 47,
             name: "猫岛谋杀循环",
             type: "推理本",
             tags: ["日式", "本格推理", "还原", "架空", "悬疑", "进阶"],
@@ -535,7 +427,7 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2024
         },
         {
-            id: 60,
+            id: 48,
             name: "此时彼刻之人",
             type: "推理本",
             tags: ["日式", "变格推理", "还原", "治愈", "烧脑", "硬核", "二次元", "情感沉浸"],
@@ -544,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2023
         },
         {
-            id: 61,
+            id: 49,
             name: "白色乡愁",
             type: "推理本",
             tags: ["中式", "还原", "现实题材"],
@@ -553,113 +445,69 @@ document.addEventListener('DOMContentLoaded', () => {
             release_year: 2021
         },
         {
-            id: 62,
+            id: 50,
             name: "北宋奇案汴京",
             type: "推理本",
-            tags: ["古风", "本格推理", "还原", "历史", "进阶"],
-            player_count: 7,
-            publisher: "null",
-            release_year: 2021
-        },
-        {
-            id: 63,
-            name: "双炽岛斩首诸因",
-            type: "推理本",
-            tags: ["日式", "本格推理", "还原", "硬核", "烧脑", "孤岛模式", "硬核"],
+            tags: ["中式", "古风", "本格推理", "还原", "欢乐", "历史", "悬疑", "进阶"],
             player_count: 6,
-            publisher: "null",
-            release_year: 2021
+            publisher: "灰烬工作室",
+            release_year: 2024
         },
         {
-            id: 64,
-            name: "坠入",
-            type: "情感本",
-            tags: ["现代", "情感沉浸", "还原", "科幻", "赛博朋克", "致郁", "菠萝头"],
-            player_count: 6,
-            publisher: "拾柒工作室",
-            release_year: 2021
-        },
-        {
-            id: 65,
+            id: 51,
             name: "二分之一世界推理法则",
             type: "推理本",
             tags: ["日式", "本格推理", "架空", "硬核", "设定", "怪谈"],
             player_count: 6,
-            publisher: "null",
-            release_year: 2021
+            publisher: "KEYS工作室",
+            release_year: 2024
         },
         {
-            id: 66,
+            id: 52,
             name: "罗拉西里的巫女",
             type: "推理本",
             tags: ["日式", "奇幻", "本格推理", "架空", "设定", "还原", "魔法", "进阶"],
             player_count: 6,
             publisher: "灰烬工作室",
-            release_year: 2021
+            release_year: 2023
         },
         {
-            id: 67,
-            name: "流氓叙事",
-            type: "推理本",
-            tags: ["现代", "变格推理", "还原", "元叙事", "烧脑", "硬核"],
-            player_count: 6,
-            publisher: "null",
-            release_year: 2021
-        },
-        {
-            id: 68,
+            id: 53,
             name: "红豆",
             type: "情感本",
-            tags: ["古风", "情感沉浸", "还原", "家国情怀", "战争", "水龙头"],
+            tags: ["中式", "民国", "情感沉浸", "还原", "家国情怀", "战争", "水龙头"],
             player_count: 6,
-            publisher: "叁仟世界",
+            publisher: "仲夏清晨",
             release_year: 2021
         },
         {
-            id: 69,
-            name: "洗劫伦敦所有的玫瑰",
-            type: "情感本",
-            tags: ["欧式", "阵营对抗", "还原", "欢乐机制", "新手友好"],
-            player_count: 7,
-            publisher: "null",
-            release_year: 2021
-        },
-        {
-            id: 70,
+            id: 54,
             name: "蟪蛄春秋",
-            type: "推理本",
-            tags: ["古风", "本格推理", "还原", "历史", "硬核", "硬核"],
-            player_count: 7,
-            publisher: "null",
-            release_year: 2021
+            type: "情感本",
+            tags: ["古风", "架空", "情感沉浸", "科幻", "末日"],
+            player_count: 6,
+            publisher: "不俗发行",
+            release_year: 2024
         },
         {
-            id: 71,
-            name: "科举",
-            type: "机制本",
-            tags: ["古风", "欢乐机制", "还原", "历史", "科举主题", "新手友好"],
-            player_count: 8,
-            publisher: "null",
-            release_year: 2021
-        },
-        {
-            id: 72,
+            id: 55,
             name: "孤城",
             type: "机制本",
-            tags: ["民国", "阵营对抗", "还原", "谍战", "家国情怀", "红色主题", "情感沉浸", "进阶"],
+            tags: ["中式", "民国", "阵营对抗", "还原", "谍战", "家国情怀", "红色主题", "情感沉浸", "进阶"],
             player_count: 7,
-            publisher: "辽宁铭思文化",
-            release_year: 2021
+            publisher: "铭思文化",
+            release_year: 2019
         },
         {
-            id: 73,
+            id: 56,
             name: "刀鞘",
             type: "机制本",
-            tags: ["民国", "阵营对抗", "还原", "谍战", "家国情怀", "红色主题", "情感沉浸", "进阶"],
+            tags: ["中式", "民国", "阵营对抗", "还原", "谍战", "家国情怀", "红色主题", "情感沉浸", "进阶"],
             player_count: 7,
             publisher: "老玉米联合工作室",
-            release_year: 2020
+            release_year: 2019
         },
+
 
 
         // ... 在这里添加尽可能多的剧本数据 ...
