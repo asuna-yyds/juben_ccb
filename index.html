@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猜剧本杀 (新版)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>猜剧本杀名称</h1>
+        <div id="search-section" style="margin-bottom: 30px; padding: 15px; background-color: #3a3a3a; border-radius: 8px;">
+            <h3 style="margin-top: 0; margin-bottom: 15px; color: #ccc;">搜索剧本库</h3>
+            <div class="input-section" style="margin-bottom: 15px;"> <input type="search" id="search-input" placeholder="输入关键词 (如'怪谈')...">
+                <button id="search-button">搜索</button>
+            </div>
+            <div id="search-results" style="max-height: 150px; overflow-y: auto; background-color: #2c2c2c; border-radius: 5px; padding: 10px; text-align: left;">
+                </div>
+        </div>
+        <div id="game-area">
+            
+
+            <div id="feedback">剩余次数: <span id="guesses-remaining">10</span></div>
+
+            <div id="guesses-container">
+                <div class="guess-row header">
+                    <div class="attribute-cell">名称</div>
+                    <div class="attribute-cell">类型</div>
+                    <div class="attribute-cell">标签</div>
+                    <div class="attribute-cell">人数</div>
+                    <div class="attribute-cell">发行商</div>
+                    <div class="attribute-cell">发行年份</div>
+                </div>
+                </div>
+
+            <div id="controls">
+                <button id="surrender-button" style="display: none;">投降喵～🏳️</button>
+                <button id="play-again-button" style="display: none;">再玩一次</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
